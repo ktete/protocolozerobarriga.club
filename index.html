@@ -59,11 +59,11 @@
       </div>
     </header>
 
-    <section class="comments py-4 d-none">
+    <section class="comments py-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <div class="fb-comments" style="margin-top: 5px;">
+            <div class="fb-comments d-none" style="margin-top: 5px;">
               <div class="fb-comments-header">
                 <span>21 comentarios</span>
               </div>
@@ -441,7 +441,7 @@
     </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none"); document.getElementsByClassName("comments py-4").classList.remove("d-none")}, 1637000); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none"); document.getElementsByClassName("fb-comments").classList.remove("d-none")}, 1637000); // temporização da Call to Action (em milissegundos)
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
